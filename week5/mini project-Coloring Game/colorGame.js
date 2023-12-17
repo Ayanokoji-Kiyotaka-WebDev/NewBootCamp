@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         colorPalette.appendChild(colorSquare);
     }
 
-    // Create blank squares in the grid
+   
     for (let i = 0; i < 200; i++) {
         const square = document.createElement('div');
         square.classList.add('square');
