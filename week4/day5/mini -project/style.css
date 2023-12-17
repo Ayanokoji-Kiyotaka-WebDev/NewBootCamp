@@ -1,0 +1,60 @@
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(5,50px);
+}
+.color {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .pink {
+    background-color: pink;
+  }
+  
+  .brown {
+    background-color: brown;
+  }
+  
+  .gray {
+    background-color: gray;
+  }
+  
+  .black {
+    background-color: black;
+  }
+ 
+  .blank-grid {
+    display: grid;
+    grid-template-columns: repeat(40, 10px);
+    grid-template-rows: repeat(40, 10px);
+    grid-gap: 1px;
+  }
+  .square {
+    width: 10px; 
+    height: 10px;
+    background-color: white;
+  }
