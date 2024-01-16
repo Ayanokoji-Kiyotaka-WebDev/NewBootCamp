@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: rgb(140, 217, 144);
+}
+
+#quote-section {
+  display: inline-block; 
+}
+
+#add-quote-form {
+  margin-top: 20px;
+}
+
+#character-count,
+#character-count-no-spaces,
+#word-count,
+#like-quote {
+  margin-bottom: 10px;
+}
+
+#filter-form {
+  margin-top: 20px;
+}
+
+#previous-quote,
+#next-quote {
+  margin-top: 20px;
+}
+
+
+
+h1 {
+  padding:20px; 
+  font-family: sans-serif,;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(81, 11, 243, 0.2); 
+  box-shadow: 0 0 10px rgba(19, 65, 232, 0.5); 
+}
