@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokedex.css">
+    <title>Pokedex App</title>
+</head>
+<body>
+    <header>
+        <img src="pok.png" alt="" width="100px">
+        <h1>Welcome to the Pokedex App 🗺️, let go to catch 😆 click on Random Pokemon</h1>
+    </header>
+    <main>
+        <section id="pokemon-container">
+            <button id="random-btn">Random Pokemon</button>
+            <div id="loading" class="hidden">
+                <img src="pokedex.png" alt="Loading...">
+            </div>
+            <div id="pokemon-info" class="hidden">
+              <img id="pokemon-image" src="">
+              <h2 id="pokemon-name"></h2>
+              <p>ID: <span id="pokemon-id"></span></p>
+              <p>Height: <span id="pokemon-height"></span></p>
+              <p>Weight: <span id="pokemon-weight"></span></p>
+              <p>Type: <span id="pokemon-type"></span></p>
+            </div>
+        </section>
+        <section id="nav">
+            <button id="previous-btn">Previous</button>
+            <span id="current-pokemon"></span>
+            <button id="next-btn">Next</button>
+        </section>
+    </main>
+
+    <script src="pokedex.js"></script>
+</body>
+</html>
